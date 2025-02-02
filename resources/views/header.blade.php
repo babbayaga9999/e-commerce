@@ -42,7 +42,7 @@ if (Session::has('user')) {
       <!-- Right-Aligned Links -->
       <ul class="navbar-nav ms-auto">
         <li class="nav-item">
-          <a class="nav-link" href="#">Cart Item ({{ $total }})</a>
+          <a class="nav-link" href="/cartlist">Cart Item ({{ $total }})</a>
         </li>
 
         @if(session()->has('user'))
